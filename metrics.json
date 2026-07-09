@@ -1,0 +1,52 @@
+{
+  "accuracy": 0.9512,
+  "balanced_accuracy": 0.8514,
+  "f1_macro": 0.7904,
+  "n_train": 492,
+  "n_test": 123,
+  "classes": [
+    "0=Blood Donor",
+    "1=Hepatitis",
+    "2=Fibrosis",
+    "3=Cirrhosis"
+  ],
+  "per_class_report": {
+    "0=Blood Donor": {
+      "precision": 1.0,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9859154929577465,
+      "support": 108.0
+    },
+    "1=Hepatitis": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 5.0
+    },
+    "2=Fibrosis": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "3=Cirrhosis": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "accuracy": 0.9512195121951219,
+    "macro avg": {
+      "precision": 0.775,
+      "recall": 0.8513888888888889,
+      "f1-score": 0.7904182671788306,
+      "support": 123.0
+    },
+    "weighted avg": {
+      "precision": 0.967479674796748,
+      "recall": 0.9512195121951219,
+      "f1-score": 0.956098254964624,
+      "support": 123.0
+    }
+  }
+}
